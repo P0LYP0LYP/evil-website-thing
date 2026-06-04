@@ -1,0 +1,120 @@
+body{
+    background-image: url("corkboard background.png");
+}
+
+#idk{
+    display: flex;
+    flex-direction: row;
+}
+
+#paper{
+    background-image: url("textbook background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 830px;
+    padding: 50px;
+    transform: rotate(-2deg);
+
+    filter: drop-shadow(0 16px 8px rgba(204, 204, 204, 0.05));
+
+    font-family: schoolbell;
+    
+}
+
+.text{
+    transition: transform 0.2s ease-in-out;
+}
+
+.text:hover{
+    transform: scale(1.05);
+}
+
+#welcome{
+    margin-left: 16%;
+    font-size: 60px;
+    color: red;
+}
+
+#q1{
+    margin-top: -20px;
+    margin-left: 13%;
+    width: 60%;
+
+    color: purple;
+}
+#q1a{
+    margin-bottom: 32px;
+    font-size: 35px;
+}
+#q1b{font-size: 27px;}
+
+#q2{
+    margin-top: -34px;
+    margin-left: 45%;
+    width: 53%;
+    color: green;
+}
+#q2a{
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+#q2b{font-size: 27px;}
+
+#doodle1{
+    position: absolute;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+
+    top: 250px;
+    left: 580px;
+
+    width: 270px;
+    height: 350px;
+}
+
+#doodle1:hover{
+    transform: rotate(-5deg) scale(1.1);
+    filter: drop-shadow(0 8px 4px rgba(0, 0, 0, 0.2));
+}
+
+#doodle2placeholder{
+    position: absolute;
+
+    top: 750px;
+    left: 170px;
+
+    width: 250px;
+
+    font-size: 30px;
+}
+
+#notecontainer{
+    transform: rotate(-3deg);
+}
+
+.stickynotes{
+    background-image: url("stickynote.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 180px;
+    height: 220px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    transition: transform 0.2s ease-in-out;
+
+    font-family: schoolbell;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.stickynotes:hover{
+    transform: rotate(1deg) scale(1.05);
+}
+
+.note-title{
+    display: flex;
+    justify-content: center;
+}
