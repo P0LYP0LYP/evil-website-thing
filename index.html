@@ -17,11 +17,11 @@
             <div id="q1">
                 <h2 class="text" id="q1a">
                     You may be asking, 
-                    <br>what is this website?
+                    <br>wgat is this website?
                 </h2>
                 <p class="text" id="q1b">
                     This is a personal website made by me :p 
-                    <br>It'll (probably) contain my bio, my arts and music, random programming shenanigans, etc. 
+                    <br>It'll <sub>(probably)</sub> contain my bio, my arts and music, random programming shenanigans, etc. 
                     <br>To see them, you can click the sticky notes on the right to direct you to the respective pages >:]
                 </p>
             </div>
@@ -30,13 +30,22 @@
                 <h2 class="text" id="q2a">But who is zeno???</h2>
                 <p class="text" id="q2b">
                     Hi I'm zeno !! >:D 
-                    <br>I'm just an *evil* creature on the internet wanting to make their own personal space :p 
+                    <br>I'm just an <em >evil</em> creature on the internet wanting to make their own personal space :p 
                     <br>Here's a doodle of me on the left :P ... but only if you're brave enough...
                 </p>
             </div>
 
+            <img id="pin1" src="pin1.png" onclick="pin1()">
+
+            <img id="music" src="music.png" onclick="evilmusic()">
             <img id="doodle1" src="doodle1.png" onclick="doodle1()">
+            <img id="arrow1" src="arrow1.png">
+            <img id="arrow2" src="arrow2.png">
             <p id="doodle2placeholder">i didnt draw myself yet TwT</p>
+            <div id="revealcontainer">
+                <img id="reveal" src="red curtain.png" onclick="reveal()">
+                <p class="text" id="revealtext">click me to reveal >:3</p>
+            </div>
         </div>
 
         <div id="notecontainer">
@@ -58,6 +67,8 @@
             </div>
         </div>
     </div>
+
+    <p id="secret">woag</p>
 </body>
 <script src="main.js"></script>
 </html>
